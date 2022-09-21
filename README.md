@@ -17,6 +17,10 @@ React, {useState, useEffect}, react-router-dom, styled-components.
 Cтраница отдельной страны"/country/${nameCountry}", 
 Cтраница с неверным адресом"*"
 
+Вы можете посмотреть данную работу по адресу:
+https://zelenkov4462.github.io/CountryApp-React/
+
+
 ![2022-09-21_07-04-57](https://user-images.githubusercontent.com/101303690/191387035-6f5e1d9f-c77d-41cf-8a27-3f5b536d0801.png)
 
 ![2022-09-21_07-05-31](https://user-images.githubusercontent.com/101303690/191387050-5a299f23-a487-4a10-96b6-4f0905bd8b88.png)
