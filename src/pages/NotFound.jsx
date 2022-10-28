@@ -11,12 +11,13 @@ const Wrapper = styled.div`
 
 const NotFound = () => {
   const navigate = useNavigate();
+
   return (
     <Wrapper>
       This page doesnt`t exist
       <Button
         style={{ justifyContent: "center" }}
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/CountryApp-React")}
       >
         Go Home Page
       </Button>

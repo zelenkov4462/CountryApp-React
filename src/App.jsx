@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
 
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Details from "./pages/Details";
 import NotFound from "./pages/NotFound";
@@ -16,9 +16,13 @@ function App() {
         <Routes>
           <Route
             element={
-              <HomePage countries={countries} setCountries={setCountries} />
+              <HomePage
+                index
+                countries={countries}
+                setCountries={setCountries}
+              />
             }
-            path="/"
+            path="/CountryApp-React"
           />
           <Route element={<Details />} path="/country/:name" />
           <Route element={<NotFound />} path="*" />
